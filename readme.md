@@ -1,11 +1,8 @@
-
-
-2015-06-15 version:0.0.1
 gedis基于redis3集群服务器，java客户端基于jedis，现提供功能如下：
 1、redis3集群的客户端操作(兼容gcache)；
 2、调用客户端方法的指标监控(使用次数及使用时长)，监控方式目前提供2种：1.HTTP被动请求；2.HTTP主动上报；
 
-目前gedis-java客户端spring配置，具体配置如下：
+目前jedis-java客户端spring配置，具体配置如下：
 1、使用gedis客户端的redis3集群服务
 	 1.1.1 方式一	<bean id="redisClusterConnectionFactory"
 			  		class="RedisClusterConnectionFactory">
